@@ -1,4 +1,4 @@
-name: SAEMEA APP 
+name: MGLARRY APP 
 on:
   push:
     branches:
@@ -9,8 +9,8 @@ on:
       ## comment
       
 env:
-   DOCKER_REPOSITORY: aquasaemea # name of Docker Hub ID
-   IMAGE_NAME: saemea-app
+   DOCKER_REPOSITORY: mglarry # name of Docker Hub ID
+   IMAGE_NAME: mglarry-app
    IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER
 
 jobs:
