@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: saemea-app
-  namespace: mglarry
+  name: assadldn-app
+  namespace: assadldn
   labels:
-    app: saemea-app
-    env: mglarry
+    app: assadldn-app
+    env: assadldn
 spec:
   selector:
     matchLabels:
-      app: saemea-app
+      app: assadldn-app
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -19,10 +19,10 @@ spec:
   template:
     metadata:
       labels:
-        app: saemea-app
+        app: assadldn-app
     spec:
       containers:
-      - name: saemea-app
+      - name: assadldn-app
         image: {{ IMAGE_CONTAINER }}
         #image: docker.io/aquasaemea/saemea-app:latest
         imagePullPolicy: Always
