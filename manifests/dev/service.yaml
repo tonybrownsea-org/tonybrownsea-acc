@@ -2,13 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    name: saemea-app
-  name: saemea-app-svc
-  namespace: dev
+    name: assadldn-app
+  name: assadldn-app-svc
+  namespace: assadldn
 spec:
   type: LoadBalancer
   selector:
-    app: saemea-app
+    app: assadldn-app
   ports:
   - name: http
     protocol: TCP
