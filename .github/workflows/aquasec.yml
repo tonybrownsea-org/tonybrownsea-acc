@@ -122,7 +122,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Setup pipeline enforcer
+      - name: interity Pipeline
         uses: aquasecurity/pipeline-enforcer-action@main
         with:
           aqua-key: ${{ secrets.AQUA_KEY }}
