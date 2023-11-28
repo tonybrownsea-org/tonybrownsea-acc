@@ -142,7 +142,8 @@ jobs:
       #     images: 'docker.io/aquasaemea/saemea-app:${{ github.run_number }}'
       #     manifests: |
       #        manifests/dev/deployment.yaml
-      #        manifests/dev/service.yaml           
+      #        manifests/dev/service.yaml
+      #####################################
      
       - name: Deploying to Dev
         run: |
