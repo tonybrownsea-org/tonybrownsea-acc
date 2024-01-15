@@ -1,4 +1,4 @@
-name: ASSADLDN APPP 
+name: TonyBrownsea APP
 on:
   push:
     branches:
@@ -10,8 +10,8 @@ on:
       #testing
       
 env:
-   DOCKER_REPOSITORY: assadldn # name of Docker Hub ID
-   IMAGE_NAME: assadldn-app
+   DOCKER_REPOSITORY: tonybrownsea # name of Docker Hub ID
+   IMAGE_NAME: tonybrownsea-app
    IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER
 
 jobs:
